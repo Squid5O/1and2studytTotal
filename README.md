@@ -411,7 +411,9 @@ PBR 이후로 프로퍼티 수치 조절만으로 한 가지 셰이더를 사용
 머터리얼 프로퍼티
 ㄴbase color _ 고유 색   - 유니티 : Albedo
 ㄴMetallic _ 금속 성분  _ 0 - 비금속, 1 - 금속
-ㄴRoughness _ 거칠기  _ 0 -매끄러움, 1 - rjclfek
+ㄴRoughness _ 거칠기  _ 0 -매끄러움, 1 - 거침
+ㄴNoraml - normal map
+ㄴEmissive - 자체 발광
 
 Diffuse(디퓨즈,난반사) , Specular(스펙큘러,정반사)
 ㄴ PBR 이전에 쓰인 개념 
@@ -420,10 +422,15 @@ Constant - 0 숫자 노드
 
 텍스쳐 = 맵
 
+리얼타임엔진은 실시간 동기화 이기 떄문에 부하가 많이 걸림
+폴리곤이 많을 수록 그 부하가 커지기 떄문에 폴리곤의 굴곡을 텍스처로 투사(Projection)시켜
+컴퓨터에 착각을 주는 방식 = 노멀 맵 
 
+UV = 2개의 채널을 이용해서 마드는 좌표(Coordinate)
 
+X 표시 된 라이트는 작동 안함 - Attenuation Radius 겹침 현상
 
-
+라이트매스 = 라이트를 텍스쳐로
 
 
 
