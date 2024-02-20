@@ -377,3 +377,55 @@ unreal은 cm 단위
 
 Brush type -> Subtractive - > 구멍내기 
 
+폴리곤 구성
+ㄴ점 Vertex
+ㄴ선 Edge
+ㄴ면 Face
+ㄴ메시 Mesh
+
+(Actor) - 독립된 개체
+ㄴMesh - 물체
+ㄴMeterial - 재질 표현
+ㄴCollision - 감지 영역
+ㄴComoonent -기능
+
+
+로우 폴리곤 <-> 하이 폴리곤  ( 폴리곤 수로 비교)
+
+
+블루 프린트 - 노드 
+
+프로퍼티 - 필드와 메소드 사이에 있는 특수 클래스 맴버 유형
+ㄴ메시(Mesh)
+ㄴ컴포넌트 클래스(Component Class)
+ㄴ머티리얼 오버라이드(Override Material)
+
+PBR(Physically based Rendering) 렌더링 시스템 - 물리기반 렌더링
+셰이더 = 최종 경과물을 출력하는 베이스 노드의 표현식 
+
+PBR 이후로 프로퍼티 수치 조절만으로 한 가지 셰이더를 사용해 다양한 재질 표현 가능해짐
+
+머터리얼[셰이더[텍스쳐, 컬러, 숫자, etc..]]
+ㄴ 머터리얼은 셰이더와 셰이더에 적용될 파라미터를 묶어주는 역활
+
+머터리얼 프로퍼티
+ㄴbase color _ 고유 색   - 유니티 : Albedo
+ㄴMetallic _ 금속 성분  _ 0 - 비금속, 1 - 금속
+ㄴRoughness _ 거칠기  _ 0 -매끄러움, 1 - rjclfek
+
+Diffuse(디퓨즈,난반사) , Specular(스펙큘러,정반사)
+ㄴ PBR 이전에 쓰인 개념 
+
+Constant - 0 숫자 노드
+
+텍스쳐 = 맵
+
+
+
+
+
+
+
+
+
+
